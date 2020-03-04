@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<title>Svelte app</title>
+
+	<link rel='icon' type='image/png' href='/favicon.png'>
+	<link rel='stylesheet' href='/global.css'>
+	<link rel='stylesheet' href='/build/bundle.css'>
+
+	<script defer src='/build/admataz-blocks.js'></script>
+</head>
+
+<body>
+	<admataz-blocks scale="64" definedylimit="24" gapfrequency="0.4" randomness="10">
+		<div id="content-container">
+			
+		</div>
+	</admataz-blocks>
+    <script>
+        document.querySelector('admataz-blocks').setAttribute("containerwidth", document.body.clientWidth)
+        window.addEventListener('resize', () => {
+            document.querySelector('admataz-blocks').setAttribute("containerwidth", document.body.clientWidth)
+        })
+    </script>
+</body>
+</html>
