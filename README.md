@@ -1,6 +1,8 @@
 # scrolly-svelte-boxes: reactive web block component 
 ![Scrolly-boxes](./screenshot.png)
 
+see the [demo](https://scrolly-boxes.demo.admataz.com)
+
 a web component made with [svelte.js](https://svelte.dev)
 
 These blocks are the [backdrop to my website](https://admataz.com) - and provide a scrolly-reactive, fun bit of colour and movement. 
